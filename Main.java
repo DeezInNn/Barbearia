@@ -12,7 +12,7 @@ public class Main {
             System.out.println("4. Sair");
             System.out.print("Escolha uma opção: ");
             int opcao = scanner.nextInt();
-            scanner.nextLine(); // Consumir a nova linha
+            scanner.nextLine(); 
 
             switch (opcao) {
                 case 1:
@@ -25,8 +25,7 @@ public class Main {
                     System.out.println("2. Andre Luiz");
                     System.out.println("3. Arthur Oliveira");
                     int escolhaBarbeiro = scanner.nextInt();
-                    scanner.nextLine(); // Consumir a nova linha
-
+                    scanner.nextLine(); 
                     Barbeiro barbeiroEscolhido = barbearia.getBarbeiro(escolhaBarbeiro - 1);
                     if (barbeiroEscolhido != null) {
                         barbeiroEscolhido.adicionarCliente(cliente);
@@ -42,8 +41,7 @@ public class Main {
                     System.out.println("2. Andre Luiz");
                     System.out.println("3. Arthur Oliveira");
                     escolhaBarbeiro = scanner.nextInt();
-                    scanner.nextLine(); // Consumir a nova linha
-
+                    scanner.nextLine();
                     barbeiroEscolhido = barbearia.getBarbeiro(escolhaBarbeiro - 1);
                     if (barbeiroEscolhido != null) {
                         Cliente removido = barbeiroEscolhido.removerCliente();
