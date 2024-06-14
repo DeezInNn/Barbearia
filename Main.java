@@ -37,9 +37,9 @@ public class Main {
 
                 case 2:
                     System.out.println("Escolha o Barbeiro:");
-                    System.out.println("1. Guilherme Lustosa");
-                    System.out.println("2. Andre Luiz");
-                    System.out.println("3. Arthur Oliveira");
+                    System.out.println("1. Willian Chaves (Barbeiro Will)");
+                    System.out.println("2. Elias Torres (Seu Elias)");
+                    System.out.println("3. Felipe Costa (Barba de Respeito)");
                     escolhaBarbeiro = scanner.nextInt();
                     scanner.nextLine();
                     barbeiroEscolhido = barbearia.getBarbeiro(escolhaBarbeiro - 1);
