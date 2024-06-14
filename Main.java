@@ -21,9 +21,9 @@ public class Main {
                     Cliente cliente = new Cliente(nomeCliente);
 
                     System.out.println("Escolha o Barbeiro:");
-                    System.out.println("1. Guilherme Lustosa");
-                    System.out.println("2. Andre Luiz");
-                    System.out.println("3. Arthur Oliveira");
+                    System.out.println("1. Willian Chaves (Barbeiro Will)");
+                    System.out.println("2. Elias Torres (Seu Elias)");
+                    System.out.println("3. Felipe Costa (Barba de Respeito");
                     int escolhaBarbeiro = scanner.nextInt();
                     scanner.nextLine(); 
                     Barbeiro barbeiroEscolhido = barbearia.getBarbeiro(escolhaBarbeiro - 1);
