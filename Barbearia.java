@@ -3,9 +3,9 @@ class Barbearia {
 
     public Barbearia() {
         barbeiros = new Barbeiro[]{
-            new Barbeiro("Guilherme Lustosa"),
-            new Barbeiro("Andre Luiz"),
-            new Barbeiro("Arthur Oliveira")
+            new Barbeiro("Willian Chaves (Barbeiro Will)"),
+            new Barbeiro("Elias Torres(Seu Elias)"),
+            new Barbeiro("Felipe Costa (Barba de Respeito)")
         };
     }
 
